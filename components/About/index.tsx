@@ -48,7 +48,7 @@ function About() {
         </p>
 
         <div className=" md:block lg:hidden">
-          <img src="/connect.png" className="w-full" alt="chain" />
+          <img src="/ethers.png" className="w-full" alt="chain" />
         </div>
       </div>
     </section>
