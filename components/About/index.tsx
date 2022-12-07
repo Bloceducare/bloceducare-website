@@ -23,14 +23,14 @@ function About() {
         </p>
 
         <div>
-          <img src="/chain.png" className="w-full" alt="chain" />
+          <img src="/bitcoin.png" className="w-full" alt="chain" />
         </div>
       </div>
 
       <div className="lg:grid lg:grid-cols-2 gap-12 my-12 items-center">
 
       <div className="hidden md:hidden lg:block">
-          <img src="/connect.png" className="w-full" alt="chain" />
+          <img src="/ethers.png" className="w-full" alt="chain" />
         </div>
 
         <p className="text-gray-300 text-base lg:text-x-small my-4  font-normal lg:leading-medium-xx md:my-12 lg:my-0">
