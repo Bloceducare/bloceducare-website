@@ -1,12 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;1,300;1,400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 ::before,
-::after,
-body {
+::after{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
+}
+
+body {
+
+  background-color: #19191B;
+  background-image: url("/landing.png");
+  /* background-image: linear-gradient(to right, #1c1749, #19191B, #19191B); */
+  /* width: 100vw;
+  height: 100vh; */
+  background-repeat: no-repeat;
+}
+
+.hero{
+  background-image: url("/curly.png"),url("/circle.png"),url("/triangle.png"),url("/plus.png");
+  background-repeat: no-repeat;
+  background-position: left 50% top 100px, top 10% right 150px, left 45% bottom 150px,
+    bottom right 50px;
+  background-size: 80px;
+}
+
+.services{
+  background-image: url("/cancel.png");
+  background-repeat: no-repeat;
+  /* background-size: 50px; */
+  background-position: right 30% ;
+}
+
+.brands{
+  background-image: url("/cancel.png"), url("/circle.png");
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+}
+
+@media screen and (max-width:768px) {
+  .hero{
+    background-position: left 40% top 60px, top 5% right 40px, left 45% bottom 69px,
+    bottom right 3px;
+    
+  }
+}
+
+@media screen and (max-width:478px) {
+  .hero{
+    background-position: 
+    left 44% top 2px, top 0% right 6px, left 51% bottom 28px,
+    bottom right 0px;
+    background-size: 40px;
+  }
 }
